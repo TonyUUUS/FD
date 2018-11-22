@@ -1,0 +1,6 @@
+hub gonrampRice_Genome
+shortLabel Rice_genome
+longLabel Rice_genome
+genomesFile genomes.txt
+email 303120291@qq.com
+descriptionUrl Rice_genome.html

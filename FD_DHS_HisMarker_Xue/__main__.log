@@ -1,0 +1,86 @@
+DEBUG:root:#### Welcome in HubArchiveCreator Debug Mode ####
+
+DEBUG:root:Calling faToTwoBit:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling twoBitInfo:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling sort:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_59.dat
+DEBUG:root:data_value: {u'long_label': u'H3K4me3_He', u'name': u'H3K4me3.bigwig', u'database': u'', u'track_color': u'#c4bd97', u'group_name': u'He zuhua', u'order_index': u'20'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_60.dat
+DEBUG:root:data_value: {u'long_label': u'H3K9ac_He', u'name': u'H3K9ac.bigwig', u'database': u'', u'track_color': u'#8db3e2', u'group_name': u'He zuhua', u'order_index': u'21'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_61.dat
+DEBUG:root:data_value: {u'long_label': u'H3K27me3_HE', u'name': u'H3K27me3.bigwig', u'database': u'', u'track_color': u'#b8cce4', u'group_name': u'He zuhua', u'order_index': u'22'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_72.dat
+DEBUG:root:data_value: {u'long_label': u'DHS-seq', u'name': u'DHS-seq.bigwig', u'database': u'', u'track_color': u'#7030a0', u'group_name': u'Su Zhen', u'order_index': u'30'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_73.dat
+DEBUG:root:data_value: {u'long_label': u'H3K4me2_Su', u'name': u'H3K4me2-5d.bigwig', u'database': u'', u'track_color': u'#e5b9b7', u'group_name': u'Su Zhen', u'order_index': u'31'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_74.dat
+DEBUG:root:data_value: {u'long_label': u'H3K4me3_Su', u'name': u'H3K4me3-5d.bigwig', u'database': u'', u'track_color': u'#d7e3bc', u'group_name': u'Su Zhen', u'order_index': u'32'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_75.dat
+DEBUG:root:data_value: {u'long_label': u'H3K9ac_Su', u'name': u'H3K9ac_5d.bigwig', u'database': u'', u'track_color': u'#ccc1d9', u'group_name': u'Su Zhen', u'order_index': u'33'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_76.dat
+DEBUG:root:data_value: {u'long_label': u'H3K27ac_Su', u'name': u'H3K27ac_5d.bigwig', u'database': u'', u'track_color': u'#b7dde8', u'group_name': u'Su Zhen', u'order_index': u'34'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_180.dat
+DEBUG:root:data_value: {u'long_label': u'LDall', u'name': u'LDall.sorted.bigwig', u'database': u'', u'track_color': u'#e36c09', u'group_name': u'FD', u'order_index': u'50'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_187.dat
+DEBUG:root:data_value: {u'long_label': u'SDall', u'name': u'SDall.sorted.bigwig', u'database': u'', u'track_color': u'#31859b', u'group_name': u'FD', u'order_index': u'51'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_215.dat
+DEBUG:root:data_value: {u'long_label': u'NFYB1_1', u'name': u'Xue_NFYB1_1.bigwig', u'database': u'', u'track_color': u'#974806', u'group_name': u'Xue_NFYB1', u'order_index': u'60'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_216.dat
+DEBUG:root:data_value: {u'long_label': u'NFYB1_2', u'name': u'Xue_NFYB1_2.bigwig', u'database': u'', u'track_color': u'#205867', u'group_name': u'Xue_NFYB1', u'order_index': u'61'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_204.dat
+DEBUG:root:data_value: {u'long_label': u'Genes', u'name': u'genes.gtf', u'database': u'', u'track_color': u'#000000', u'group_name': u'Genes', u'order_index': u'10'}
+DEBUG:root:Calling gtfToGenePred:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling genePredToBigGenePred:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling sort:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:sorted_bed_file_name: /home/tianwei/Galaxy/galaxy/database/tmp/tmpuuvgS_.sortedBed.bigGenePred
+DEBUG:root:chrom_sizes_file_name: /home/tianwei/Galaxy/galaxy/database/tmp/tmpCyjIbi.chrom.sizes
+DEBUG:root:big_bed_file_name: /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/tracks/genes.gtf.bb
+DEBUG:root:typeOption: bed12+8
+DEBUG:root:autoSql: /home/tianwei/Galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/rmarenco/hubarchivecreator/cdd33c5c8ac1/hubarchivecreator/bigGenePred.as
+DEBUG:root:tab option: True
+DEBUG:root:Calling bedToBigBed:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:----- End of all_datatype_dictionary processing -----
+DEBUG:root:all_datatype_ordered_dictionary keys are: [<Gtf.Gtf object at 0x7fb2effd2750>, <BigWig.BigWig object at 0x7fb2effd2990>, <BigWig.BigWig object at 0x7fb2effd2b10>, <BigWig.BigWig object at 0x7fb2effd2bd0>, <BigWig.BigWig object at 0x7fb2effdd150>, <BigWig.BigWig object at 0x7fb2effd2f90>, <BigWig.BigWig object at 0x7fb2effd2e10>, <BigWig.BigWig object at 0x7fb2effd2e50>, <BigWig.BigWig object at 0x7fb2effdd5d0>, <BigWig.BigWig object at 0x7fb2effdd4d0>, <BigWig.BigWig object at 0x7fb2effdd290>, <BigWig.BigWig object at 0x7fb2effd2510>, <BigWig.BigWig object at 0x7fb2effd2690>]
+DEBUG:root:----- Beginning of Track adding processing -----
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group Genes
+DEBUG:root:We just added track gonramp_genes_gtf_bb (in group genes)
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group He zuhua
+DEBUG:root:We just added track gonramp_H3K4me3_bigwig_bigwig (in group he_zuhua)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group He zuhua
+DEBUG:root:We just added track gonramp_H3K9ac_bigwig_bigwig (in group he_zuhua)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group He zuhua
+DEBUG:root:We just added track gonramp_H3K27me3_bigwig_bigwig (in group he_zuhua)
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group Su Zhen
+DEBUG:root:We just added track gonramp_H3K9ac_5d_bigwig_bigwig (in group su_zhen)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group Su Zhen
+DEBUG:root:We just added track gonramp_H3K4me3_5d_bigwig_bigwig (in group su_zhen)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group Su Zhen
+DEBUG:root:We just added track gonramp_H3K4me2_5d_bigwig_bigwig (in group su_zhen)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group Su Zhen
+DEBUG:root:We just added track gonramp_DHS_seq_bigwig_bigwig (in group su_zhen)
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group FD
+DEBUG:root:We just added track gonramp_SDall_sorted_bigwig_bigwig (in group fd)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group FD
+DEBUG:root:We just added track gonramp_LDall_sorted_bigwig_bigwig (in group fd)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group Su Zhen
+DEBUG:root:We just added track gonramp_H3K27ac_5d_bigwig_bigwig (in group su_zhen)
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group Xue_NFYB1
+DEBUG:root:We just added track gonramp_Xue_NFYB1_1_bigwig_bigwig (in group xue_nfyb1)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/210/dataset_217_files/myHub/Rice_genome/groups.txt the group Xue_NFYB1
+DEBUG:root:We just added track gonramp_Xue_NFYB1_2_bigwig_bigwig (in group xue_nfyb1)
+DEBUG:root:----- End of Track adding processing -----
+DEBUG:root:#### End of HubArchiveCreator Debug Mode: Bye! ####

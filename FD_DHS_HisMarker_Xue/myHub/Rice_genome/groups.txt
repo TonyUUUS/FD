@@ -1,0 +1,25 @@
+name genes
+label Genes
+priority 2
+defaultIsClosed 0
+
+name he_zuhua
+label He zuhua
+priority 2
+defaultIsClosed 0
+
+name su_zhen
+label Su Zhen
+priority 2
+defaultIsClosed 0
+
+name fd
+label FD
+priority 2
+defaultIsClosed 0
+
+name xue_nfyb1
+label Xue_NFYB1
+priority 2
+defaultIsClosed 0
+

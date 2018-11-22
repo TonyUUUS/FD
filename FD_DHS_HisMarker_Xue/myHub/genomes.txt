@@ -1,0 +1,10 @@
+genome Rice_genome
+trackDb Rice_genome/trackDb.txt
+groups Rice_genome/groups.txt
+description Rice_genome
+twoBitPath Rice_genome/Rice_genome.2bit
+organism Rice_genome
+defaultPos 1
+orderKey 4500
+scientificName Rice_genome
+htmlPath Rice_genome/description.html

@@ -1,0 +1,180 @@
+
+track gonramp_genes_gtf_bb
+longLabel Genes
+shortLabel Genes
+bigDataUrl tracks/genes.gtf.bb
+type bigGenePred
+visibility dense
+thickDrawItem off
+priority 10
+color 0,0,0
+group genes
+searchIndex name
+
+track gonramp_H3K4me3_bigwig_bigwig
+longLabel H3K4me3 He
+shortLabel H3K4me3 He
+bigDataUrl tracks/H3K4me3.bigwig.bigwig
+visibility full
+priority 20
+color 196,189,151
+group he_zuhua
+type bigWig 0.000000 10126.299805
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_H3K9ac_bigwig_bigwig
+longLabel H3K9ac He
+shortLabel H3K9ac He
+bigDataUrl tracks/H3K9ac.bigwig.bigwig
+visibility full
+priority 21
+color 141,179,226
+group he_zuhua
+type bigWig 0.000000 11687.500000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_H3K27me3_bigwig_bigwig
+longLabel H3K27me3 HE
+shortLabel H3K27me3 HE
+bigDataUrl tracks/H3K27me3.bigwig.bigwig
+visibility full
+priority 22
+color 184,204,228
+group he_zuhua
+type bigWig 0.000000 23953.599609
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_H3K9ac_5d_bigwig_bigwig
+longLabel H3K9ac Su
+shortLabel H3K9ac Su
+bigDataUrl tracks/H3K9ac_5d.bigwig.bigwig
+visibility full
+priority 33
+color 204,193,217
+group su_zhen
+type bigWig 0.000000 934.760010
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_H3K4me3_5d_bigwig_bigwig
+longLabel H3K4me3 Su
+shortLabel H3K4me3 Su
+bigDataUrl tracks/H3K4me3-5d.bigwig.bigwig
+visibility full
+priority 32
+color 215,227,188
+group su_zhen
+type bigWig 0.000000 247.016998
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_H3K4me2_5d_bigwig_bigwig
+longLabel H3K4me2 Su
+shortLabel H3K4me2 Su
+bigDataUrl tracks/H3K4me2-5d.bigwig.bigwig
+visibility full
+priority 31
+color 229,185,183
+group su_zhen
+type bigWig 0.000000 253.169006
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_DHS_seq_bigwig_bigwig
+longLabel DHS-seq
+shortLabel DHS-seq
+bigDataUrl tracks/DHS-seq.bigwig.bigwig
+visibility full
+priority 30
+color 112,48,160
+group su_zhen
+type bigWig 0.000000 133497.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_SDall_sorted_bigwig_bigwig
+longLabel SDall
+shortLabel SDall
+bigDataUrl tracks/SDall.sorted.bigwig.bigwig
+visibility full
+priority 51
+color 49,133,155
+group fd
+type bigWig 0.000000 1753.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_LDall_sorted_bigwig_bigwig
+longLabel LDall
+shortLabel LDall
+bigDataUrl tracks/LDall.sorted.bigwig.bigwig
+visibility full
+priority 50
+color 227,108,9
+group fd
+type bigWig 0.000000 3358.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_H3K27ac_5d_bigwig_bigwig
+longLabel H3K27ac Su
+shortLabel H3K27ac Su
+bigDataUrl tracks/H3K27ac_5d.bigwig.bigwig
+visibility full
+priority 34
+color 183,221,232
+group su_zhen
+type bigWig 0.000000 378.674988
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_Xue_NFYB1_1_bigwig_bigwig
+longLabel NFYB1 1
+shortLabel NFYB1 1
+bigDataUrl tracks/Xue_NFYB1_1.bigwig.bigwig
+visibility full
+priority 60
+color 151,72,6
+group xue_nfyb1
+type bigWig 0.000000 146.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_Xue_NFYB1_2_bigwig_bigwig
+longLabel NFYB1 2
+shortLabel NFYB1 2
+bigDataUrl tracks/Xue_NFYB1_2.bigwig.bigwig
+visibility full
+priority 61
+color 32,88,103
+group xue_nfyb1
+type bigWig 0.000000 146.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
