@@ -1,0 +1,2 @@
+FD_DHS_HisMarker_Xue/myHub/Rice_genome/tracks/Xue_NFYB1_1.bigwig.bigwig filter=lfs diff=lfs merge=lfs -text
+FD_DHS_HisMarker_Xue/myHub/Rice_genome/tracks/Xue_NFYB1_2.bigwig.bigwig filter=lfs diff=lfs merge=lfs -text
